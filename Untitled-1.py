@@ -40,7 +40,7 @@ def convert_pdf_2_text(path):
     return text
 company=[]
 person=[]
-people=['魏清莲','陈斌波','秦千雅','王京','郑豫','吴德龙','易蕾莉','张玉霞','刘艳春','王景立','叶国强','柳卓之','郭良辉','康齐正','冉青荣','傅相林']
+people=['xxx','yyy','zzz',]
 '''
 for i in file_list:
     t=convert_pdf_2_text(i)
@@ -59,7 +59,7 @@ df=pd.DataFrame({'公司':company,"人员":person})
 df.to_csv('董高在控股股东企业任职.csv',encoding='utf-8')
 
 '''
-name='湖州恒沅股权投资有限公司.pdf'
+#name='xx.pdf'
 #t=convert_pdf_2_text(name)
 #t=t.split('三、企业对外投资')[2]
 #print(t)
